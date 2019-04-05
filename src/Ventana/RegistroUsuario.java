@@ -308,8 +308,8 @@ public class RegistroUsuario extends javax.swing.JFrame {
         //Accion registar
         try{
             if(docId.getText().equals("")){
-            JOptionPane.showMessageDialog(null, "Es necesario un documento de identidad");
-            return;
+                JOptionPane.showMessageDialog(null, "Es necesario un documento de identidad");
+                return;
             }
             if(password.getText().equals("")){
                 JOptionPane.showMessageDialog(null, "Es necesaria una contraseña");

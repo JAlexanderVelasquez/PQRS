@@ -168,7 +168,7 @@ public class registroDependencia extends javax.swing.JFrame {
             }
         }
         catch(Exception e){
-            JOptionPane.showMessageDialog(null, "RRRRRRRRRRRRR");
+            JOptionPane.showMessageDialog(null, e);
             return;
         }
     }//GEN-LAST:event_jButton3ActionPerformed

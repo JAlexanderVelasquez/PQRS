@@ -38,6 +38,7 @@ public class DependenciaLogica {
     
     public boolean registrarDependecia(String cod, String nom){
         Dependencia dep=new Dependencia();
+        
         dep.setCodigo(cod);
         dep.setNombre(nom);
 
